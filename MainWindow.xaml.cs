@@ -22,7 +22,6 @@ namespace First_game
         int matchFound;
         public MainWindow()
         {
-
             InitializeComponent();
             timer.Interval = TimeSpan.FromSeconds(.1);
             timer.Tick += Timer_Tick;
